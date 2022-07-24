@@ -1,6 +1,6 @@
 type CardProps = {
   name: string
-  artUrl?: string
+  image?: string
   cooldown: number
   effect: string
   passive: string
@@ -9,15 +9,27 @@ type CardProps = {
   size: 'small' | 'medium' | 'large'
 }
 
+function getTypes(types: string[]): JSX.Element[] {
+  return types.map((type) => <div>{type}</div>)
+}
+
 function Card(props: CardProps) {
+  const types = getTypes(props.types)
+
   return (
-    <div className='flex flex-col'>
-      <div>{props.name}</div>
-      <div>{props.cooldown}</div>
-      <div>{props.effect}</div>
-      <div>{props.passive}</div>
-      <div>{props.cost}</div>
-      <div>{props.size}</div>
+    <div className='flex w-96 border-2'>
+      <img src={'images/' + props.image} alt='Card art' className='w-40'></img>
+      <div className='flex flex-col justify-between'>
+        <div>
+          <div>{props.name}</div>
+          <div className='flex'>{types}</div>
+        </div>
+        <div className='flex'>
+          <div>{props.cooldown}s</div>
+          <div>{props.effect}</div>
+        </div>
+        <div>{props.passive}</div>
+      </div>
     </div>
   )
 }
