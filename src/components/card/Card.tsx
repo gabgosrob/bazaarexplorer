@@ -11,7 +11,7 @@ type CardProps = {
 
 function Card(props: CardProps) {
   return (
-    <div>
+    <div className='flex flex-col'>
       <div>{props.name}</div>
       <div>{props.cooldown}</div>
       <div>{props.effect}</div>
