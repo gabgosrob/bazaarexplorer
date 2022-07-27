@@ -4,7 +4,7 @@ import CardContainer from './components/card-container/CardContainer'
 
 function App() {
   return (
-    <div>
+    <div className='m-2'>
       <CardContainer cards={cards} />
     </div>
   )

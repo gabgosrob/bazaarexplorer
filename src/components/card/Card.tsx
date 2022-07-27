@@ -17,9 +17,9 @@ function Card(props: CardProps) {
       <img
         src={'images/' + props.image}
         alt='Card art'
-        className='min-w-[10vw] h-[10vw]'
+        className='w-[10vw] h-[10vw]'
       />
-      <div className='flex flex-col justify-between text-[1vw]'>
+      <div className='flex flex-col justify-between text-[0.8vw] m-1'>
         <div>
           <div>{props.name}</div>
           <div className='flex'>{types}</div>

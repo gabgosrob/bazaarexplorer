@@ -8,7 +8,7 @@ export type CardContainerProps = {
 function CardContainer(props: CardContainerProps) {
   const cards = getCards(props.cards)
 
-  return <div className='grid grid-cols-5'>{cards}</div>
+  return <div className='grid grid-cols-4 gap-2'>{cards}</div>
 }
 
 function getCards(cards: CardProps[]) {
