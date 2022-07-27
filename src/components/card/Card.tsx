@@ -13,8 +13,12 @@ function Card(props: CardProps) {
   const types = getTypes(props.types)
 
   return (
-    <div className='flex border-2'>
-      <img src={'images/' + props.image} alt='Card art' className='w-3/4' />
+    <div className='flex'>
+      <img
+        src={'images/' + props.image}
+        alt='Card art'
+        className='min-w-[10vw] h-[10vw]'
+      />
       <div className='flex flex-col justify-between text-[1vw]'>
         <div>
           <div>{props.name}</div>
