@@ -1,18 +1,11 @@
-import Card from './components/card/Card'
+import { cards } from './assets/cards'
+
+import CardContainer from './components/card-container/CardContainer'
 
 function App() {
   return (
     <div>
-      <Card
-        name='Sword'
-        image='placeholder.png'
-        cooldown={10}
-        effect='Deal 10 damage.'
-        passive='Your other fire items charge 1.5x faster.'
-        cost={5}
-        types={['Weapon', 'Fire']}
-        size='medium'
-      />
+      <CardContainer cards={cards} />
     </div>
   )
 }

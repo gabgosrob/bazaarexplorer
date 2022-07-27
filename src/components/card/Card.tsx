@@ -1,4 +1,4 @@
-type CardProps = {
+export type CardProps = {
   name: string
   image?: string
   cooldown: number
@@ -7,10 +7,6 @@ type CardProps = {
   cost: number
   types: string[]
   size: 'small' | 'medium' | 'large'
-}
-
-function getTypes(types: string[]): JSX.Element[] {
-  return types.map((type) => <div>{type}</div>)
 }
 
 function Card(props: CardProps) {
@@ -32,6 +28,10 @@ function Card(props: CardProps) {
       </div>
     </div>
   )
+}
+
+function getTypes(types: string[]) {
+  return types.map((type, index) => <div key={index}>{type}</div>)
 }
 
 export default Card

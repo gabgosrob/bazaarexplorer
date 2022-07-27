@@ -2,18 +2,26 @@ import { render, screen } from '@testing-library/react'
 
 import Card from './Card'
 
-it('demo', () => {
+it('renders the card', () => {
+  const name = 'Sword'
+  const cooldown = 10
+  const effect = 'Deal 10 damage.'
+  const passive = 'pog'
+  const cost = 5
+  const types = ['Weapon']
+  const size = 'medium'
+
   render(
     <Card
-      name='Sword'
-      cooldown={10}
-      effect='Deal 10 damage.'
-      passive='pog'
-      cost={5}
-      types={['Weapon']}
-      size='medium'
+      name={name}
+      cooldown={cooldown}
+      effect={effect}
+      passive={passive}
+      cost={cost}
+      types={types}
+      size={size}
     />
   )
 
-  expect(screen.getByText('Sword')).toBeTruthy()
+  expect(screen.getByText(name)).toBeTruthy()
 })
