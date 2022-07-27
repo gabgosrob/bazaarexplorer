@@ -13,29 +13,34 @@ function Card(props: CardProps) {
   const types = getTypes(props.types)
 
   return (
-    <div className='flex'>
-      <img
-        src={'images/' + props.image}
-        alt='Card art'
-        className='w-[10vw] h-[10vw]'
-      />
-      <div className='flex flex-col justify-between text-[0.8vw] m-1'>
-        <div>
-          <div>{props.name}</div>
-          <div className='flex'>{types}</div>
-        </div>
-        <div className='flex'>
-          <div>{props.cooldown}s</div>
-          <div>{props.effect}</div>
-        </div>
-        <div>{props.passive}</div>
+    <div className='flex flex-col w-[14rem] h-[28rem] border-2'>
+      <div
+        className={`w-full h-1/2 bg-cover`}
+        style={{
+          backgroundImage: `url(/images/${props.image || 'placeholder.png'})`,
+        }}
+      ></div>
+      <div className='flex flex-col justify-between h-1/2 m-1.5'>
+        <div className='font-bold'>{props.name}</div>
+        <div className='flex gap-2'>{types}</div>
+        <div>⌛{props.cooldown}s</div>
+        <div>{props.effect}</div>
+        <div className='overflow-scroll'>{props.passive}</div>
       </div>
     </div>
   )
 }
 
 function getTypes(types: string[]) {
-  return types.map((type, index) => <div key={index}>{type}</div>)
+  return !types.length ? (
+    <div>&nbsp;</div>
+  ) : (
+    types.map((type, index) => (
+      <div className='border-2 py-0.5 px-1.5' key={index}>
+        {type}
+      </div>
+    ))
+  )
 }
 
 export default Card

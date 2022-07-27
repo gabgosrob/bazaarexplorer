@@ -65,7 +65,6 @@ export const cards: CardProps[] = [
   },
   {
     name: 'Ectoplasm',
-    image: 'ectoplasm.png',
     cooldown: 5,
     effect: 'Heal 5 Health\nRemove 10 Burn and 3 Poison.',
     passive: '',
@@ -287,7 +286,6 @@ export const cards: CardProps[] = [
   },
   {
     name: 'Temporary Shelter',
-    image: 'temporary-shelter.png',
     cooldown: 0,
     effect: 'You have +50 max health while you own this.',
     passive: '',
