@@ -13,14 +13,14 @@ function Card(props: CardProps) {
   const types = getTypes(props.types)
 
   return (
-    <div className='flex flex-col w-[14rem] h-[28rem] border-2'>
+    <div className='flex flex-col w-[18rem] h-[36rem] border-4'>
       <div
         className={`w-full h-1/2 bg-cover`}
         style={{
           backgroundImage: `url(/images/${props.image || 'placeholder.png'})`,
         }}
       ></div>
-      <div className='flex flex-col justify-between h-1/2 m-1.5'>
+      <div className='flex flex-col gap-1 h-1/2 m-1.5'>
         <div className='font-bold'>{props.name}</div>
         <div className='flex gap-2'>{types}</div>
         <div>⌛{props.cooldown}s</div>
@@ -33,10 +33,10 @@ function Card(props: CardProps) {
 
 function getTypes(types: string[]) {
   return !types.length ? (
-    <div>&nbsp;</div>
+    <div className='py-0.5 px-1.5'>&nbsp;</div>
   ) : (
     types.map((type, index) => (
-      <div className='border-2 py-0.5 px-1.5' key={index}>
+      <div className='border-2 rounded-xl py-0.5 px-1.5' key={index}>
         {type}
       </div>
     ))
