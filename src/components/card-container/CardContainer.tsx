@@ -1,6 +1,6 @@
 import Card from '../card/Card'
 import type { CardProps } from '../card/Card'
-import { ChangeEvent, useState } from 'react'
+import { useState } from 'react'
 
 export type CardContainerProps = {
   cards: CardProps[]
