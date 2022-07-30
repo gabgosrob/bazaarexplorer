@@ -34,8 +34,8 @@ function Filter(props: FilterProps) {
   return (
     <div className='flex gap-4'>
       {types.map((type, index) => (
-        <label key={index}>
-          {type}{' '}
+        <div key={index} className='flex gap-1'>
+          <div>{type}</div>
           <input
             type='checkbox'
             name={type}
@@ -43,7 +43,7 @@ function Filter(props: FilterProps) {
             checked={checkedState[index]}
             onChange={() => handleOnChange(index)}
           />
-        </label>
+        </div>
       ))}
     </div>
   )
