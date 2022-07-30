@@ -19,6 +19,11 @@ function Card(props: CardProps) {
       className={`flex flex-col relative w-[18rem] h-[36rem] border-4 ${borderColor}`}
     >
       <div
+        className={`absolute top-0 left-0 p-1 rounded-br-lg border-b-4 border-r-4 ${borderColor} bg-yellow-300`}
+      >
+        ${props.cost}
+      </div>
+      <div
         className={`w-full h-1/2 bg-cover`}
         style={{
           backgroundImage: `url(/images/${props.image || 'placeholder.png'})`,
@@ -30,9 +35,6 @@ function Card(props: CardProps) {
         <div>⌛{props.cooldown}s</div>
         <div>{props.effect}</div>
         <div className='overflow-scroll'>{props.passive}</div>
-      </div>
-      <div className='absolute top-0 left-0 p-1 rounded-br-lg bg-yellow-300'>
-        ${props.cost}
       </div>
     </div>
   )
