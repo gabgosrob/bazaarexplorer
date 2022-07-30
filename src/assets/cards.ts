@@ -79,7 +79,7 @@ export const cards: CardProps[] = [
     effect: '18 Damage',
     passive: 'When you take damage from a weapon, 2 second daze.',
     cost: 0,
-    types: ['Aquatic', ' Weapon'],
+    types: ['Aquatic', 'Weapon'],
     size: 'medium',
   },
   {
@@ -99,7 +99,7 @@ export const cards: CardProps[] = [
     effect: 'Deal 1 Damage',
     passive: '',
     cost: 0,
-    types: ['Weapon', ' Monstrous'],
+    types: ['Weapon', 'Monstrous'],
     size: 'small',
   },
   {
