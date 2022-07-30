@@ -32,7 +32,7 @@ function Filter(props: FilterProps) {
   }
 
   return (
-    <div>
+    <div className='flex gap-4'>
       {types.map((type, index) => (
         <label key={index}>
           {type}{' '}
