@@ -12,8 +12,12 @@ export type CardProps = {
 function Card(props: CardProps) {
   const types = getTypes(props.types)
 
+  const borderColor = getBorderColorClass(props.size)
+
   return (
-    <div className='flex flex-col w-[18rem] h-[36rem] border-4'>
+    <div
+      className={`flex flex-col w-[18rem] h-[36rem] border-4 ${borderColor}`}
+    >
       <div
         className={`w-full h-1/2 bg-cover`}
         style={{
@@ -41,6 +45,12 @@ function getTypes(types: string[]) {
       </div>
     ))
   )
+}
+
+function getBorderColorClass(size: string) {
+  if (size === 'small') return 'border-green-400'
+  else if (size === 'medium') return 'border-yellow-400'
+  else return 'border-red-600'
 }
 
 export default Card
