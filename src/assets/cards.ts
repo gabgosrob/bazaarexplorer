@@ -1,6 +1,6 @@
 import type { CardProps } from '../components/card/Card'
 
-export const cards: CardProps[] = [
+export const neutralCards: CardProps[] = [
   {
     name: 'Alien Axe',
     image: 'alien-axe.png',

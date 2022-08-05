@@ -2,21 +2,12 @@ import { useState } from 'react'
 
 export type FilterProps = {
   handleFilter: (filter: string[]) => void
+  types: string[]
 }
 
 function Filter(props: FilterProps) {
-  const types = [
-    'Weapon',
-    'Meal',
-    'Vehicle',
-    'Gear',
-    'Aquatic',
-    'Monstrous',
-    'Friend',
-  ]
-
   const [checkedState, setCheckedState] = useState<boolean[]>(
-    new Array(types.length).fill(false)
+    new Array(props.types.length).fill(false)
   )
 
   const handleOnChange = (position: number) => {
@@ -25,7 +16,7 @@ function Filter(props: FilterProps) {
     )
 
     props.handleFilter(
-      types.filter((type, index) => updatedCheckedState[index])
+      props.types.filter((type, index) => updatedCheckedState[index])
     )
 
     setCheckedState(updatedCheckedState)
@@ -33,9 +24,8 @@ function Filter(props: FilterProps) {
 
   return (
     <div className='flex gap-4'>
-      {types.map((type, index) => (
+      {props.types.map((type, index) => (
         <div key={index} className='flex gap-1'>
-          <div>{type}</div>
           <input
             type='checkbox'
             name={type}
@@ -43,6 +33,7 @@ function Filter(props: FilterProps) {
             checked={checkedState[index]}
             onChange={() => handleOnChange(index)}
           />
+          <div>{type}</div>
         </div>
       ))}
     </div>

@@ -6,6 +6,7 @@ import type { CardProps } from '../card/Card'
 
 export type CardContainerProps = {
   cards: CardProps[]
+  types: string[]
 }
 
 function CardContainer(props: CardContainerProps) {
@@ -26,7 +27,7 @@ function CardContainer(props: CardContainerProps) {
     <div className='flex flex-col gap-4'>
       <div>
         <input type='text' onChange={handleSearch} className='border-2' />
-        <Filter handleFilter={handleFilter} />
+        <Filter handleFilter={handleFilter} types={props.types} />
       </div>
       <div className='flex flex-wrap gap-4 justify-around'>{cards}</div>
     </div>
