@@ -13,7 +13,7 @@ function CardContainer(props: CardContainerProps) {
   const [search, setSearch] = useState<string>('')
   const [filter, setFilter] = useState<string[]>([])
 
-  const cards = getCards(props.cards, search, filter)
+  const cards = filterCards(props.cards, search, filter)
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value)
@@ -34,7 +34,7 @@ function CardContainer(props: CardContainerProps) {
   )
 }
 
-function getCards(cards: CardProps[], search: string, filter: string[]) {
+function filterCards(cards: CardProps[], search: string, filter: string[]) {
   return cards.map((card, index) => {
     const hasTypeInCommon = card.types.some((type) => filter.indexOf(type) >= 0)
     if (
