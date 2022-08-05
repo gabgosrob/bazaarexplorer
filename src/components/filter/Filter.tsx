@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export type FilterProps = {
   handleFilter: (filter: string[]) => void
@@ -21,6 +21,10 @@ function Filter(props: FilterProps) {
 
     setCheckedState(updatedCheckedState)
   }
+
+  useEffect(() => {
+    setCheckedState(new Array(props.types.length).fill(false))
+  }, [props.types])
 
   return (
     <div className='flex gap-4'>
