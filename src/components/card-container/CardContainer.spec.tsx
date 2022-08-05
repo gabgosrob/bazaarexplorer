@@ -23,11 +23,12 @@ const blade: CardProps = {
   types: ['Weapon'],
   size: 'medium',
 }
+const types = ['Weapon', 'Meal']
 
 it('renders the cards', () => {
   const cards = [sword, sword, sword]
 
-  render(<CardContainer cards={cards} />)
+  render(<CardContainer cards={cards} types={types} />)
 
   expect(screen.queryAllByText(sword.name).length).toBe(cards.length)
 })
@@ -35,7 +36,7 @@ it('renders the cards', () => {
 it('shows the searched items', () => {
   const cards = [sword, blade]
 
-  render(<CardContainer cards={cards} />)
+  render(<CardContainer cards={cards} types={types} />)
 
   const inputBox = screen.getByRole('textbox')
   fireEvent.change(inputBox, { target: { value: sword.name } })
