@@ -480,7 +480,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Cargo Shorts',
-    image: 'cargo-shorts.png',
+    image: 'placeholder.png',
     cooldown: 7,
     effect: 'Gain 1 Strength for each small item you own.',
     passive: 'When you gain a small item, gain +5 Armor.',
@@ -520,7 +520,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Crystal Bonsai',
-    image: 'crystal-bonsai.png',
+    image: 'placeholder.png',
     cooldown: 6,
     effect: 'Heal Health equal to this items value.',
     passive:
@@ -542,7 +542,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Exotic Bird',
-    image: 'exotic-bird.png',
+    image: 'placeholder.png',
     cooldown: 8,
     effect: 'Deal 13 Damage',
     passive: 'When you buy this, gain 5 Speed.',
@@ -674,7 +674,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Jaballian Drum',
-    image: 'jaballian-drum.png',
+    image: 'placeholder.png',
     cooldown: 10,
     effect: 'Gain Speed equal to your Strength.',
     passive: 'You have 2 Strength.',
@@ -827,7 +827,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Open/Closed Sign',
-    image: 'open/closed-sign.png',
+    image: 'placeholder.png',
     cooldown: 0,
     effect: '',
     passive: 'Your cooldowns are reduced by 35% until you use a weapon',
@@ -897,7 +897,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Pointy Tusk Armor',
-    image: 'pointy-tusk-armor.png',
+    image: 'placeholder.png',
     cooldown: 14,
     effect: 'Deal 15 Damage',
     passive:
@@ -918,7 +918,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Rare Coin',
-    image: 'rare-coin.png',
+    image: 'placeholder.png',
     cooldown: 0,
     effect: '',
     passive: 'This item sells for $3',
@@ -959,7 +959,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Scrolls',
-    image: 'scrolls.png',
+    image: 'placeholder.png',
     cooldown: 0,
     effect: '',
     passive: "Reduce your item's cooldowns by 21%.",
@@ -979,7 +979,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Signet Ring',
-    image: 'signet-ring.png',
+    image: 'placeholder.png',
     cooldown: 9,
     effect: 'Gain Regeneration equal to your income.',
     passive: 'When you buy this, gain 2 income.',
@@ -1041,7 +1041,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Snowtel',
-    image: 'snowtel.png',
+    image: 'placeholder.png',
     cooldown: 4,
     effect: 'Freeze a random enemy item for 2 seconds.',
     passive: 'Whenever you Freeze, Heal for 20',
@@ -1071,7 +1071,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Spiky Shield',
-    image: 'spiky-shield.png',
+    image: 'placeholder.png',
     cooldown: 8,
     effect: 'Deal damage equal to your Shield.',
     passive: '',
@@ -1101,7 +1101,7 @@ export const pygmalienCards: CardProps[] = [
   },
   {
     name: 'Tea Set',
-    image: 'tea-set.png',
+    image: 'placeholder.png',
     cooldown: 0,
     effect: '',
     passive: 'At the start of each fight, permanently gain +20 Max Health.',
@@ -1582,7 +1582,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Birthday Cake',
-    image: 'birthday-cake.png',
+    image: 'placeholder.png',
     cooldown: 17,
     effect: 'Joy for 7 times the Day count',
     passive: '',
@@ -1674,7 +1674,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Cheese Wheel',
-    image: 'cheese-wheel.png',
+    image: 'placeholder.png',
     cooldown: 24,
     effect: '40 Joy and give this +5 Joy.',
     passive: 'When you opponent uses a Weapon this Advances 1.',
@@ -1764,7 +1764,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Dishwasher',
-    image: 'dishwasher.png',
+    image: 'placeholder.png',
     cooldown: 20,
     effect: '30 Health',
     passive: 'When you deal Joy, Advance this by 1.',
@@ -1774,7 +1774,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Dragonmelon',
-    image: 'dragonmelon.png',
+    image: 'placeholder.png',
     cooldown: 19,
     effect: '100 Joy',
     passive: '',
@@ -1814,7 +1814,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Farmers Market',
-    image: 'farmers-market.png',
+    image: 'placeholder.png',
     cooldown: 11,
     effect: '50 Health',
     passive: 'When you gain an item, the left Meal gets +1 Joy permanently.',
@@ -1854,7 +1854,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Fortune Cookies',
-    image: 'fortune-cookies.png',
+    image: 'placeholder.png',
     cooldown: 7,
     effect: '3 Joy',
     passive: 'When you sell this, gain an extra event choice for the day.',
@@ -2027,7 +2027,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: "Laurel's Favourite",
-    image: "laurel's-favourite.png",
+    image: 'placeholder.png',
     cooldown: 10,
     effect: '20 Joy',
     passive: 'When you get a Meal or Ingredient, give this +2 Joy permanently.',
@@ -2037,7 +2037,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: "Laurel's Fortress",
-    image: "laurel's-fortress.png",
+    image: 'placeholder.png',
     cooldown: 15,
     effect: '30 Shield',
     passive:
@@ -2068,7 +2068,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Midday Snack',
-    image: 'midday-snack.png',
+    image: 'placeholder.png',
     cooldown: 6,
     effect: '1 Joy',
     passive: 'When you sell this, fully Heal.',
@@ -2201,7 +2201,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Rice',
-    image: 'rice.png',
+    image: 'placeholder.png',
     cooldown: 12,
     effect: '10 Joy',
     passive: 'When you use an Appliance, give this +5 Joy.',
@@ -2211,7 +2211,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Rice Cooker',
-    image: 'rice-cooker.png',
+    image: 'placeholder.png',
     cooldown: 7,
     effect: '',
     passive: 'Advance your other medium items by 2 Seconds.',
@@ -2231,7 +2231,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Saffron',
-    image: 'saffron.png',
+    image: 'placeholder.png',
     cooldown: 0,
     effect: '',
     passive: 'Adjacent Meals add Joy equal to one-third their value.',
@@ -2353,7 +2353,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Strawberry',
-    image: 'strawberry.png',
+    image: 'placeholder.png',
     cooldown: 4,
     effect: 'Heal both players 3',
     passive: "Adjacent Meals have +3 Joy or +10 Joy if they're large.",
@@ -2404,7 +2404,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Universal Sauce',
-    image: 'universal-sauce.png',
+    image: 'placeholder.png',
     cooldown: 15,
     effect: 'The left Meal gets +12 Joy.',
     passive: '',
@@ -2424,7 +2424,7 @@ export const julesCards: CardProps[] = [
   },
   {
     name: 'Zarlic Garlic',
-    image: 'zarlic-garlic.png',
+    image: 'placeholder.png',
     cooldown: 0,
     effect: '',
     passive: 'Adjacent Meals have +7 Joy.',
@@ -2622,7 +2622,7 @@ export const stelleCards: CardProps[] = [
   },
   {
     name: 'De-Icing Cart',
-    image: 'de-icing-cart.png',
+    image: 'placeholder.png',
     cooldown: 6,
     effect: 'Costs 6 Altitude\n6 Burn\nUnfreeze a frozen item you own.',
     passive: '',
@@ -2743,7 +2743,7 @@ export const stelleCards: CardProps[] = [
   },
   {
     name: 'Ice Bomb',
-    image: 'ice-bomb.png',
+    image: 'placeholder.png',
     cooldown: 20,
     effect: '5 Seconds Freeze on five items.',
     passive: '',
@@ -2763,7 +2763,7 @@ export const stelleCards: CardProps[] = [
   },
   {
     name: 'Jetpack',
-    image: 'jetpack.png',
+    image: 'placeholder.png',
     cooldown: 7,
     effect: '6 Altitude\n6 Shield',
     passive: '',
@@ -2783,7 +2783,7 @@ export const stelleCards: CardProps[] = [
   },
   {
     name: 'Lava Cycle',
-    image: 'lava-cycle.png',
+    image: 'placeholder.png',
     cooldown: 9,
     effect: '5 Burn',
     passive: '',
@@ -2958,7 +2958,7 @@ export const stelleCards: CardProps[] = [
   },
   {
     name: 'Rocket Drone',
-    image: 'rocket-drone.png',
+    image: 'placeholder.png',
     cooldown: 6,
     effect: '5 Altitude\n5 Damage',
     passive: '',
@@ -2989,7 +2989,7 @@ export const stelleCards: CardProps[] = [
   },
   {
     name: 'Solar Charging Drone',
-    image: 'solar-charging-drone.png',
+    image: 'placeholder.png',
     cooldown: 10,
     effect: 'Charge adjacent large items by 2 Seconds.',
     passive: 'Your weapons gain Damage equal to the day count.',
@@ -3050,7 +3050,7 @@ export const stelleCards: CardProps[] = [
   },
   {
     name: 'The Gossamer',
-    image: 'the-gossamer.png',
+    image: 'placeholder.png',
     cooldown: 10,
     effect: 'Shield equal to 10 times the day count.',
     passive: '',
@@ -3091,7 +3091,7 @@ export const stelleCards: CardProps[] = [
   },
   {
     name: 'Vortex Cannon',
-    image: 'vortex-cannon.png',
+    image: 'placeholder.png',
     cooldown: 10,
     effect: '20 Damage',
     passive:
@@ -3146,7 +3146,7 @@ export const stelleCards: CardProps[] = [
 export const vanessaCards: CardProps[] = [
   {
     name: 'Anchor ',
-    image: 'anchor-.png',
+    image: 'anchor.png',
     cooldown: 10,
     effect: '2 Daze for each Aquatic item you own.',
     passive: '',
@@ -3167,7 +3167,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Astrolabe ',
-    image: 'astrolabe-.png',
+    image: 'astrolabe.png',
     cooldown: 1,
     effect: 'Do nothing',
     passive: '',
@@ -3177,7 +3177,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Ballista ',
-    image: 'ballista-.png',
+    image: 'ballista.png',
     cooldown: 10,
     effect: '100 damage',
     passive: '   ',
@@ -3187,7 +3187,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Barrel ',
-    image: 'barrel-.png',
+    image: 'barrel.png',
     cooldown: 9,
     effect: '9 Shield',
     passive: 'When you use another item, give this +1 Shield for the fight.',
@@ -3207,7 +3207,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Blowgun ',
-    image: 'blowgun-.png',
+    image: 'blowgun.png',
     cooldown: 11,
     effect: '1 Damage and apply that much Poison.',
     passive: '',
@@ -3227,7 +3227,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Bolas ',
-    image: 'bolas-.png',
+    image: 'bolas.png',
     cooldown: 8,
     effect: '6 Damage\nDaze your opponent for 6 seconds.',
     passive: '',
@@ -3247,7 +3247,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Cannon ',
-    image: 'cannon-.png',
+    image: 'cannon.png',
     cooldown: 5,
     effect: 'Deal 8 Damage and 4 Burn',
     passive: 'This has +1 Ammo for each weapon you own.',
@@ -3257,7 +3257,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Cannonade ',
-    image: 'cannonade-.png',
+    image: 'cannonade.png',
     cooldown: 16,
     effect: '40 Damage\n2 Burn',
     passive: 'Multicast per Weapon you own.',
@@ -3267,7 +3267,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Cannonball ',
-    image: 'cannonball-.png',
+    image: 'cannonball.png',
     cooldown: 0,
     effect: '',
     passive: 'When you use an item with Ammo, deal 5 Damage.',
@@ -3277,7 +3277,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: "Captain's Wheel  ",
-    image: "captain's-wheel--.png",
+    image: "captain's-wheel.png",
     cooldown: 0,
     effect: '',
     passive:
@@ -3288,7 +3288,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Chum ',
-    image: 'chum-.png',
+    image: 'chum.png',
     cooldown: 6,
     effect: 'Give Aquatic items +2 Damage.',
     passive: 'When you use an Aquatic item, gain +2 Speed.',
@@ -3298,7 +3298,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Citrus ',
-    image: 'citrus-.png',
+    image: 'citrus.png',
     cooldown: 8,
     effect: '2 Strength and 2 Regeneration.',
     passive: '',
@@ -3308,7 +3308,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Clamera ',
-    image: 'clamera-.png',
+    image: 'clamera.png',
     cooldown: 12,
     effect: 'Daze your opponent for 4 seconds.',
     passive: 'At the start of each fight, use this',
@@ -3318,7 +3318,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Coconut ',
-    image: 'coconut-.png',
+    image: 'coconut.png',
     cooldown: 4,
     effect: '1 Regeneration',
     passive: '',
@@ -3339,7 +3339,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Coral ',
-    image: 'coral-.png',
+    image: 'coral.png',
     cooldown: 3,
     effect: 'Heal 4',
     passive: 'When you apply Poison, give this +8 Healing for the fight.',
@@ -3349,7 +3349,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Coral Armor ',
-    image: 'coral-armor-.png',
+    image: 'coral-armor.png',
     cooldown: 7,
     effect: 'Gain 4 Shield for each weapon you own.',
     passive: '',
@@ -3359,7 +3359,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: "Crow's Nest ",
-    image: "crow's-nest-.png",
+    image: "crow's-nest.png",
     cooldown: 7,
     effect: 'Give adjacent weapons +10% damage.',
     passive: 'You have 5 Speed for each Ammo item you own.',
@@ -3369,7 +3369,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Cutlass ',
-    image: 'cutlass-.png',
+    image: 'cutlass.png',
     cooldown: 3,
     effect: 'Deal 4 damage',
     passive: '',
@@ -3379,7 +3379,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Dam ',
-    image: 'dam-.png',
+    image: 'dam.png',
     cooldown: 11,
     effect: '40 damage',
     passive:
@@ -3410,7 +3410,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Double Barrel ',
-    image: 'double-barrel-.png',
+    image: 'double-barrel.png',
     cooldown: 5,
     effect: 'Deal 3 Damage.',
     passive: 'Dualcast',
@@ -3420,7 +3420,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: "Dragon's Lair ",
-    image: "dragon's-lair-.png",
+    image: "dragon's-lair.png",
     cooldown: 3,
     effect: 'Transform this into 3 Small Weapons permanently.',
     passive: 'When you get this, Fight the Dragon.',
@@ -3441,7 +3441,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Fishing Net ',
-    image: 'fishing-net-.png',
+    image: 'fishing-net.png',
     cooldown: 10,
     effect: 'Get a Piranha.',
     passive: ' You have +1 strength for each Aquatic item you own.',
@@ -3461,7 +3461,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Grappling Hook ',
-    image: 'grappling-hook-.png',
+    image: 'grappling-hook.png',
     cooldown: 10,
     effect: 'Daze 3 Seconds',
     passive: 'When you Daze you deal 31 Damage.',
@@ -3471,7 +3471,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Grenade ',
-    image: 'grenade-.png',
+    image: 'grenade.png',
     cooldown: 4,
     effect: '25 Damage.',
     passive: '',
@@ -3491,7 +3491,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Holsters ',
-    image: 'holsters-.png',
+    image: 'holsters.png',
     cooldown: 0,
     effect: '',
     passive: 'At the start of the fight, use adjacent small items.',
@@ -3511,7 +3511,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Iceberg ',
-    image: 'iceberg-.png',
+    image: 'iceberg.png',
     cooldown: 0,
     effect: '',
     passive:
@@ -3522,7 +3522,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Incendiary Rounds ',
-    image: 'incendiary-rounds-.png',
+    image: 'incendiary-rounds.png',
     cooldown: 0,
     effect: '',
     passive:
@@ -3533,7 +3533,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Javelin ',
-    image: 'javelin-.png',
+    image: 'javelin.png',
     cooldown: 13,
     effect: '5 Damage',
     passive: 'When any of the items to the right is used, this gets +1 Damage.',
@@ -3553,7 +3553,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Jitte ',
-    image: 'jitte-.png',
+    image: 'jitte.png',
     cooldown: 10,
     effect: "6 Damage\nGive your opponent's Weapons -2 Damage this fight.",
     passive: '',
@@ -3563,7 +3563,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Life Presever ',
-    image: 'life-presever-.png',
+    image: 'life-presever.png',
     cooldown: 28,
     effect: '75 Health\n2 Regeneration',
     passive: 'When you use an Aquatic item, Charge 1 second to this.',
@@ -3583,7 +3583,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Lighthouse ',
-    image: 'lighthouse-.png',
+    image: 'lighthouse.png',
     cooldown: 0,
     effect: '',
     passive:
@@ -3594,7 +3594,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Matryoshka ',
-    image: 'matryoshka-.png',
+    image: 'matryoshka.png',
     cooldown: 3,
     effect: "This deals damage equal to it's ammo times 2.",
     passive: '',
@@ -3604,7 +3604,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Musket ',
-    image: 'musket-.png',
+    image: 'musket.png',
     cooldown: 10,
     effect: '30 damage',
     passive: 'At the start of the fight, use this.',
@@ -3614,7 +3614,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Octopus ',
-    image: 'octopus-.png',
+    image: 'octopus.png',
     cooldown: 20,
     effect: '1 Damage',
     passive: 'Octocast',
@@ -3624,7 +3624,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Pearl ',
-    image: 'pearl-.png',
+    image: 'pearl.png',
     cooldown: 0,
     effect: '',
     passive: 'The left item has dualcast.',
@@ -3644,7 +3644,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Pistol Sword ',
-    image: 'pistol-sword-.png',
+    image: 'pistol-sword.png',
     cooldown: 8,
     effect: 'Deal 10 Damage.',
     passive: 'When you Freeze an enemy item, advance 3 to this.',
@@ -3654,7 +3654,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Port ',
-    image: 'port-.png',
+    image: 'port.png',
     cooldown: 7,
     effect: 'Give all your items +1 Ammo.',
     passive: 'Whenever you sell an item, give your Ammo Weapons +3 Damage.',
@@ -3664,7 +3664,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Powder Flask ',
-    image: 'powder-flask-.png',
+    image: 'powder-flask.png',
     cooldown: 8,
     effect: 'Give the item to the left of this +1 Ammo.',
     passive: '',
@@ -3674,7 +3674,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Powder Keg ',
-    image: 'powder-keg-.png',
+    image: 'powder-keg.png',
     cooldown: 14,
     effect: "5 Burn, then double your opponent's Burn.",
     passive: '',
@@ -3705,7 +3705,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Revolver ',
-    image: 'revolver-.png',
+    image: 'revolver.png',
     cooldown: 6,
     effect: '28 Damage',
     passive: 'When you use another Weapon, use this.',
@@ -3726,7 +3726,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Sea Shell ',
-    image: 'sea-shell-.png',
+    image: 'sea-shell.png',
     cooldown: 9,
     effect: 'Gain 5 shield for each Aquatic item you own.',
     passive: '',
@@ -3736,7 +3736,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Seaweed ',
-    image: 'seaweed-.png',
+    image: 'seaweed.png',
     cooldown: 4,
     effect: '3 Health',
     passive: 'Your Aquatic items charge 30% faster.',
@@ -3746,7 +3746,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Sextant ',
-    image: 'sextant-.png',
+    image: 'sextant.png',
     cooldown: 0,
     effect: '',
     passive: 'When you use an item get 2 Speed for the fight.',
@@ -3776,7 +3776,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Shipwreck ',
-    image: 'shipwreck-.png',
+    image: 'shipwreck.png',
     cooldown: 15,
     effect:
       'Deal 80 Damage to the opponents and 20 Damage to yourself. Adjacent items become permanently Aquatic.',
@@ -3809,7 +3809,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Sniper Rifle ',
-    image: 'sniper-rifle-.png',
+    image: 'sniper-rifle.png',
     cooldown: 0,
     effect: '50 damage',
     passive: 'Double this items Damage for each large item you own.',
@@ -3829,7 +3829,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Star Chart ',
-    image: 'star-chart-.png',
+    image: 'star-chart.png',
     cooldown: 20,
     effect: 'Get 100 speed',
     passive: 'Adjacent items charge 40% faster.',
@@ -3849,7 +3849,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Submarine ',
-    image: 'submarine-.png',
+    image: 'submarine.png',
     cooldown: 0,
     effect: '10 Damage and gain that much as Shield.',
     passive: '',
@@ -3859,7 +3859,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Swash Buckle ',
-    image: 'swash-buckle-.png',
+    image: 'swash-buckle.png',
     cooldown: 8,
     effect:
       'Gain 5 Speed and give adjacent non-ammo Weapons +2 Damage for the fight.',
@@ -3870,7 +3870,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Switchblade ',
-    image: 'switchblade-.png',
+    image: 'switchblade.png',
     cooldown: 5,
     effect: 'Deal 3 damage.',
     passive: 'Deals triple Damage if all your Weapons are small.',
@@ -3900,7 +3900,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Trebuchet ',
-    image: 'trebuchet-.png',
+    image: 'trebuchet.png',
     cooldown: 13,
     effect: '40 damage\n12 burn',
     passive: '',
@@ -3910,7 +3910,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Tripwire ',
-    image: 'tripwire-.png',
+    image: 'tripwire.png',
     cooldown: 6,
     effect: '20 Damage, 3 Seconds Daze and 1 Poison.',
     passive: 'The first time an opponent uses an item, gain 30 Shield.',
@@ -3920,7 +3920,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Tropical Island ',
-    image: 'tropical-island-.png',
+    image: 'tropical-island.png',
     cooldown: 0,
     effect: '',
     passive:
@@ -3941,7 +3941,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Turtle Shell ',
-    image: 'turtle-shell-.png',
+    image: 'turtle-shell.png',
     cooldown: 0,
     effect: '',
     passive: 'When you use an item, gain 4 Shield.',
@@ -3951,7 +3951,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: "Vanessa's Amulet ",
-    image: "vanessa's-amulet-.png",
+    image: 'placeholder.png',
     cooldown: 0,
     effect: '',
     passive:
@@ -3962,7 +3962,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: "Vanessa's Ship ",
-    image: "vanessa's-ship-.png",
+    image: 'placeholder.png',
     cooldown: 5,
     effect: 'Deal Damage equal to the total value of your board.',
     passive: 'You have +3 Strength and +10 Speed.',
@@ -3972,7 +3972,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Wanted Poster ',
-    image: 'wanted-poster-.png',
+    image: 'wanted-poster.png',
     cooldown: 0,
     effect: '',
     passive: "When you buy a Weapon, increase poster's value by $2.",
@@ -3982,7 +3982,7 @@ export const vanessaCards: CardProps[] = [
   },
   {
     name: 'Waterwheel ',
-    image: 'waterwheel-.png',
+    image: 'waterwheel.png',
     cooldown: 0,
     effect: 'Advance the right item by 10 Seconds.',
     passive: 'When you use the left item, Advance this 2 seconds. ',
