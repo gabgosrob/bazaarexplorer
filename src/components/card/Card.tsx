@@ -34,7 +34,7 @@ function Card(props: CardProps) {
         <div className='flex gap-2'>{types}</div>
         <div>⌛{props.cooldown}s</div>
         <div>{props.effect}</div>
-        <div className='overflow-scroll'>{props.passive}</div>
+        <div className='overflow-hidden'>{props.passive}</div>
       </div>
     </div>
   )
