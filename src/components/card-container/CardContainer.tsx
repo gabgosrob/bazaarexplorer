@@ -25,8 +25,12 @@ function CardContainer(props: CardContainerProps) {
 
   return (
     <div className='flex flex-col gap-4'>
-      <div>
-        <input type='text' onChange={handleSearch} className='border-2' />
+      <div className='flex flex-col gap-4 items-center w-full'>
+        <input
+          type='text'
+          onChange={handleSearch}
+          className='border-2 w-[678px]'
+        />
         <Filter handleFilter={handleFilter} types={props.types} />
       </div>
       <div className='flex flex-wrap gap-4 justify-around'>{cards}</div>

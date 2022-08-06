@@ -54,15 +54,30 @@ function App() {
     setTypes(stelleTypes)
   }
 
+  const buttonStyle =
+    'bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow'
+
   return (
-    <div className='m-4 '>
-      <div className='flex gap-4'>
-        <button onClick={() => useNeutralCards()}>Neutral</button>
-        <button onClick={() => usePygmalienCards()}>Pygmalien</button>
-        <button onClick={() => useVanessaCards()}>Vanessa</button>
-        <button onClick={() => useDooleyCards()}>Dooley</button>
-        <button onClick={() => useJulesCards()}>Jules</button>
-        <button onClick={() => useStelleCards()}>Stelle</button>
+    <div className='m-4 flex flex-col gap-4'>
+      <div className='flex gap-4 justify-center'>
+        <button className={buttonStyle} onClick={() => useNeutralCards()}>
+          Neutral
+        </button>
+        <button className={buttonStyle} onClick={() => usePygmalienCards()}>
+          Pygmalien
+        </button>
+        <button className={buttonStyle} onClick={() => useVanessaCards()}>
+          Vanessa
+        </button>
+        <button className={buttonStyle} onClick={() => useDooleyCards()}>
+          Dooley
+        </button>
+        <button className={buttonStyle} onClick={() => useJulesCards()}>
+          Jules
+        </button>
+        <button className={buttonStyle} onClick={() => useStelleCards()}>
+          Stelle
+        </button>
       </div>
       <CardContainer cards={cards} types={types} />
     </div>
